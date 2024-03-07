@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WowFood</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- fonts -->
+     <link rel="stylesheet" href="./fonts/fontawesome-free-6.5.1-web/css/all.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Trang Chủ</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            Khám Phá</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">
+                            <i class="fa-solid fa-utensils"></i>
+                            Thực Đơn</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-id-badge"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-order">
+        <div class="container">
+            
+            <h2 class="text-center text-white">
+                <i class="fa-solid fa-file-signature"></i>
+                Xác Nhận Đặt Hàng</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Món Ăn Đã Chọn</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Pizza Thập Cẩm</h3>
+                        <p class="food-price">210.000 ₫</p>
+
+                        <div class="order-label">Số Lượng</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Chi Tiết Giao Hàng</legend>
+                    <div class="order-label">Họ Và Tên</div>
+                    <input type="text" name="full-name" placeholder="E.G. Nguyễn Văn A" class="input-responsive" required>
+
+                    <div class="order-label">Số Điện Thoại</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
+
+                    <div class="order-label">Địa Chỉ</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Đường Phố - Thành Phố - Quốc Gia" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Xác Nhận Đặt Hàng" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Nguyễn Quang Sáng</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>
